@@ -1,0 +1,44 @@
+header {
+  background-color: #ed4040;
+}
+
+footer {
+  background-color: #dedede;
+}
+
+div {
+  background-color: #e8e8e8;
+}
+
+span {
+  color: #d60000;
+}
+
+#specialid {
+  color: #d60000;
+}
+.redtext {
+  color: #d60000;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #34a33c;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffff00;
+}
