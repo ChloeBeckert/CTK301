@@ -1,0 +1,33 @@
+a{
+  color:#00ff00;
+  text-decoration:none;
+}
+a:hover{
+  color:#ff0000;
+  text-decoration:underline;
+}
+header{
+  background-color:#6fb1c9;
+}
+h2{
+  color:#0000ff;
+}
+span{
+  color:#f0c50c;
+}
+h3{
+  background-color:#f0c50c;
+}
+h4{
+  background-color:#064d01;
+  color:#ffff00;
+}
+h5{
+  color:#9b00de;
+}
+#taxi{
+  color:#ff0000
+}
+#art{
+  background-color:#68e88a
+}
