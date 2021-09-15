@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  background-image: url(assets/quad1.jfif);
+  background-repeat: repeat;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #ed4040;
+}
+
+main {
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+footer {
+  background-color: #dedede;
+  margin: 10px 10px 10px 10px;
+}
+
+div {
+  background-color: #e8e8e8;
+}
+
+span {
+  color: #d60000;
+}
+
+#specialid {
+  color: #d60000;
+}
+
+.redtext {
+  color: #d60000;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #34a33c;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffff00;
+}
+
+.imgbox {
+  border: 10px solid #000000;
+  padding: 2px 2px 2px 2px #ffffff;
+}
+
+.center {
+  text-align: center
+}
+
+h1 {
+  color: #e37900;
+  font-style: italic;
+}
+
+h2 {
+  color: #e37900;
+  font-style: italic;
+}
+
+h3 {
+  color: #e37900;
+  font-style: italic;
+}
+
+h4 {
+  color: #e37900;
+  font-style: italic;
+}
