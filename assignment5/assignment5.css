@@ -1,0 +1,44 @@
+body{
+    width:630px;
+}
+main{
+  width:630px;
+  height:865px;
+  background-image: url(Soul.png)
+}
+span{
+  font-size: 16px;
+}
+p{
+  font-family:helvetica;
+  font-size:10px;
+  color: #2a80c7;
+}
+a{
+  font-family: helvetica;
+  color:#2a80c7;
+  text-decoration:none;
+}
+a:hover{
+  color:#f2971f;
+  text-decoration: underline;
+}
+h1{
+  font-family:impact;
+  color:#2a80c7;
+  font-size:124px;
+  text-align:center;
+}
+#O{
+  color:#f2971f;
+  font-size:124px;
+}
+footer{
+  text-align:center;
+}
+.Joe{
+  color: white;
+  text-align:right;
+  padding:20px;
+  font-size:16px
+}
