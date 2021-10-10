@@ -1,0 +1,100 @@
+#wrapper{
+    background-color: white;
+    margin: 1em auto;
+    padding: 0;
+    width:960px;
+    border:2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body{
+  background-color: #bababa;
+}
+#gradient{
+  grid-column: span 3;
+  background-image: linear-gradient(180deg, #5e97f2, #052d6e);
+}
+header{
+  padding-left:1em;
+}
+header a{
+  color:#c9daf5;
+  font-style:italic;
+  text-decoration: none;
+  font-family:helvetica;
+}
+header a:hover{
+  color:#f2b55e;
+}
+nav{
+  grid-column: span 3;
+}
+nav ul{
+  list-style-type: none;
+}
+nav li{
+  display: inline-block;
+  width: 200px;
+}
+nav li a {
+  display: block;
+  background-image: linear-gradient(180deg, #5e97f2, #052d6e);
+  border: 0;
+  padding: 1em;
+  margin: 7px;
+  color: #c9daf5;
+  text-decoration: none;
+  font-family: helvetica;
+  text-align: center;
+  font-size:18px
+}
+nav a:hover{
+  background-image: linear-gradient(180deg, #f2b55e, #a81f03);
+}
+main{
+  grid-column:span 3;
+  padding: 1em;
+  border-bottom: 2px solid blue;
+}
+.imgbox{
+  float: left;
+  border: 2px solid blue;
+  margin: 1em;
+}
+.tables{
+  float:right;
+  border: 2px solid blue;
+  margin: 1em;
+}
+h2{
+  border-bottom: 2px solid blue;
+  font-family: arial;
+  color: blue;
+}
+#bold{
+  font-weight:bold;
+}
+main a{
+  color:#a81f03;
+  text-decoration:none;
+  font-weight:bold;
+}
+main a:hover{
+  color:blue;
+  text-decoration:underline;
+}
+footer{
+  grid-column: span 3;
+  background-color:#a81f03;
+  padding: 1em;
+}
+footer a{
+  display:block;
+  height:80px;
+  width:300px;
+  background-image: url(assets/wordmark_isu.png);
+  background-repeat: no-repeat;
+}
+main img{
+  border: 2px solid blue;
+}
